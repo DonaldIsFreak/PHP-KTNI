@@ -1,0 +1,158 @@
+@CHARSET "utf8";
+body {
+	margin: 80px;
+	color: #ffffff;
+	background-color: #0a0a0a;
+	font-family: 'Neucha','Courier News',monospace;
+}
+#tb_ideas {
+	text-align: right;
+	width: 750px;
+	margin: 5px auto 10px auto;
+	padding: 5px;
+	border-collapse: collapse;
+}
+
+#page {
+	width: 850px;
+	text-align: center;
+	margin: auto;
+}
+#footer {
+	
+}
+#content {
+
+}
+#datepicker {	
+	text-align: center;
+}
+#calender table{
+	margin: auto;
+	width: 500px;
+	text-align: center;
+	border-collapse: collapse;
+}
+#calender tr {
+	color: #000000;
+	background-color: #ffffff;
+}
+#calender td{
+	border: 0px;
+	margin: 0px;
+}
+#year {
+	font-size: 25px;
+	font-weight: bold;
+	height: 30px;
+	padding-top: 3px;
+	background-color: #000000;
+	background-repeat: no-repeat;
+	background-image: url(../images/calender_top.png);
+}
+#month_date span {
+	display: block;
+	margin: 5px;
+}
+#month {
+	font-size: 24px;
+}
+#date {
+	font-weight: bold;
+	font-size: 80px;
+}
+#day {
+	font-size: 14px;
+	background-repeat: no-repeat;
+	background-image: url(../images/calender_bottom.png);
+}
+#today {
+	
+}
+#footer a{
+	text-decoration: none;
+}
+#footer-menu a{
+	margin: 5px;
+	padding-right: 10px;
+	border-right: 2px solid #9f9f9f;
+}
+.header {
+	font-size: 30pt;
+	font-weight: bold;
+	margin: 20px;
+}
+.idea {
+	font: bold 20px monospace;
+	width: 400px;
+	height: 30px;
+	border: 5px solid #efefef;
+	margin: 5px;
+}
+#tb_ideas div{
+	text-align: center;
+}
+.warning {
+	color: #ff0000;
+	font-weight: bold;
+}
+.input_focus{
+	border: 5px solid #bfbfbf;
+}
+.bt_submit {
+	font-weight: bold;
+	font-size: 30px;
+	width: 80px;
+	text-align: center;
+	cursor: pointer;
+	border: 2px solid #efefef;
+	display: block;	
+}
+.bt_submit_hover {
+	color: #ffffaa;
+	background-color: #bfbfbf;
+}
+.bt_plurk {
+	background-image: url(../images/plurk.png);
+}
+.bt_twitter {
+	background-image: url(../images/twitter.png);
+}
+.bt_facebook {
+	background-image: url(../images/facebook.png);
+}
+.bt_plurk,.bt_twitter,.bt_facebook{
+	cursor: pointer;
+	width: 32px;
+	height: 32px;
+	border: 0px solid #000000;
+}
+.labels {
+	font-size: 20pt;
+}
+.tags {
+	display: block;
+}
+.add_tag {
+	cursor: pointer;
+	border-bottom: 1px dashed #ffffff;
+}
+#dg_tags {
+	display: none;
+	 word-wrap: break-word;
+}
+#dg_addBlock {
+	display: none;
+}
+#dg_addTag {
+	cursor: pointer;
+	font-size: 12px;
+	text-align: right;
+	position: bottom;
+}
+#lt_tags a{
+	cursor: pointer;
+	font-size: 18px;
+	margin: 5px;
+	border-bottom: 1px dotted #2b2b2b;
+}

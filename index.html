@@ -1,0 +1,110 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Keep Thinking New Ideas</title>
+<link href='http://fonts.googleapis.com/css?family=Neucha&subset=latin' rel='stylesheet' type='text/css'>
+<link rel='stylesheet' type='text/css' href='css/themes/base/jquery.ui.all.css'/>
+<link rel='stylesheet' type='text/css' href='css/main.css'/>
+<script type="text/Javascript" src="js/jquery.js"></script>
+<script type="text/Javascript" src="js/jquery-ui.js"></script>
+<script type="text/Javascript" src="js/utility.js"></script>
+<script type="text/Javascript" src="js/ktni.js"></script>
+</head>
+<body>
+	<p class='warning'>Cannot load jQuery library...</p>
+	<div id='page'>
+		<div id='header'>
+			<span class='header'>KEEP</span> <span class='header'>THINKING</span> <span class='header'>New Ideas</span>
+			<h4>Every Day Thinking Three New Or Crazy Ideas, Only Three. It's Very Easy To Do :D</h4><hr/>
+		</div><!-- end header div block -->
+		<div id='content'>
+			<!-- Date：<input id='datepicker'/> -->
+			<div id='calender'>
+				<table>
+					<thead>
+						<tr>
+							<td id='year'>Year</td>
+						</tr>
+					</thead>
+					<tbody>
+						<tr><td id='month_date'><span id='month'>Month</span><span id='date'>Date</span></td></tr>
+					</tbody>
+					<tfoot>
+						<tr><td id='day'>Day</td></tr>
+					</tfoot>
+				</table>
+				<div id='today'>TODAY is </div>
+			</div> 
+			<div id='message'></div>
+			<div id='dg_tags'>
+				<div id='dg_addTag' onClick='$("#dg_addBlock").fadeIn();'>Add New Tag</div>
+				<div id='lt_tags'></div>
+				<div id='dg_addBlock'>
+					<hr/>
+					<div id='dg_message'></div>
+					<label>Add New Tag:</label>
+					<input type='text' id='input_tag'/><input type='button' value='Add' onClick='addTag()'/>
+				</div>
+			</div>
+			<table id="tb_ideas">
+				<tbody>
+				<tr>
+					<td><span class='labels'>ONE IDEA</span></td>
+					<td><div id='one'><input type='text' id='input_one' class='idea'/></div></td>
+					<td>
+						<span id='bt_one' class='bt_submit'>OK</span>
+					</td>
+					<td>
+						<button id='plurk_one' class='bt_plurk'></button>
+					</td>
+					<td>
+						<button id='twitter_one' class='bt_twitter'></button>
+					</td>
+					<td>
+						<button id='facebook_one' class='bt_facebook'></button>
+					</td>
+				</tr>
+				<tr><td colspan='2'><span id='tags_one' class='tags'>Tags : </span></td><td colspan='5'><a id='addTag_one' class='add_tag'>Add Tag</a></td></tr>
+				<tr>
+					<td><span class='labels'>TWO IDEA</span></td>
+					<td><div id='two'><input type='text' id='input_two' class='idea'></input></div></td>
+					<td><span id='bt_two' class='bt_submit'>OK</span></td>
+					<td>
+						<button id='plurk_two' class='bt_plurk'></button>
+					</td>
+					<td>
+						<button id='twitter_two' class='bt_twitter'></button>
+					</td>
+					<td>
+						<button id='facebook_two' class='bt_facebook'></button>
+					</td>
+				</tr>
+				<tr><td colspan='2'><span id='tags_two' class='tags'>Tags : </span></td><td colspan='5'><a id='addTag_two' class='add_tag'>Add Tag</a></td></tr>
+				<tr>
+					<td><span class='labels'>THREE IDEA</span></td>
+					<td><div id='three'><input type='text' id='input_three' class='idea'/></div></td>
+					<td><span id='bt_three' class='bt_submit'>OK</span></td>
+					<td>
+						<button id='plurk_three' class='bt_plurk'></button>
+					</td>
+					<td>
+						<button id='twitter_three' class='bt_twitter'></button>
+					</td>
+					<td>
+						<button id='facebook_three' class='bt_facebook'></button>
+					</td>
+				</tr>
+				<tr><td colspan='2'><span id='tags_three' class='tags'>Tags : </span></td><td colspan='5'><a id='addTag_three' class='add_tag'>Add Tag</a></td></tr>
+				</tbody>
+			</table>			
+		</div><!-- end content div block -->
+		<div id='footer'>
+			<hr/>
+			<div id='footer-menu'><!--<a href='about.html'>About</a><a href=''>Contact</a>--></div>
+			<div id='copyright'>Copyright &copy; <a href='http://code.google.com/p/php-ktni/'>DonaldIsFreak</a></div>
+		</div><!-- end footer div block -->
+	</div><!--  end page div block -->
+	
+</body>
+</html>
